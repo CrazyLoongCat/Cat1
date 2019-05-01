@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      xmlns：th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>NBA</title>
+</head>
+
+<body>
+    <div th:each="team,item:${NBA}">
+        <span th:text="${team.id}"></span>
+        <span th:text="${team.name}"></span>
+        <span th:text="${team.ranking}"></span>
+        <span th:text="${team.win}"></span>
+        <span th:text="${team.lose}"></span>
+    </div>
+</body>
+</html>

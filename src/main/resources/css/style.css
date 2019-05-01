@@ -1,0 +1,14 @@
+body{
+
+   background:url(../imge/webwxgetmsgimg.jpg)  no-repeat center center;
+
+   background-size:cover;
+
+   background-attachment:fixed;
+
+
+}
+.banner-bg{
+	background:url(../imge/background.jpg)  no-repeat center center;
+	
+}
